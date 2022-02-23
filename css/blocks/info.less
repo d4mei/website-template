@@ -1,0 +1,66 @@
+// main: ../style.less
+
+.info__inner{
+    display: flex;
+    max-width: 1149px;
+margin: 0px auto;
+margin-bottom: 100px;
+}
+.info__photo, .info__content{
+width: 50%;
+padding-left: 100px;
+}
+.info__photo__2, .info__content__2{
+    width: 50%;
+    padding-right: 100px;
+    }
+.info__bigtitle{
+    font-size: 48px;
+    font-weight: 700;
+    padding: 0px;
+    margin: 0px;
+    &:after{
+        content: "";
+    display:block;
+        width: 58px;
+        height: 2px;
+        background-color: #000000;
+position: relative;
+left: 2px;
+    }
+}
+.info__title{
+    font-size: 2rem;
+    font-weight: 300;
+    margin: 0px;
+}
+.info__text{
+    font-size: 18px;
+    color: #656565;
+    margin-bottom: 50px;
+    line-height: 30px;
+}
+
+.info__btn{
+    font-size: 18px;
+    font-weight: 300;
+    text-decoration: none;
+    padding: 13px 31px;
+    border: 1px solid rgb(141, 141, 141) ;
+    border-radius: 30px;
+    transition: .1s linear;
+&:hover{
+    background-color: black;
+    color: white;
+}
+}
+.info__photo{
+    background-color:lightgray;
+    width: 560px;
+    height: 560px;
+}
+.info__photo__2{
+    background-color:lightgray;
+    width: 560px;
+    height: 560px;
+}
